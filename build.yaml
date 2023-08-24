@@ -14,6 +14,6 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: abomination_left nice_view_adapter nice_view
+    shield: abomination_left nice_view
   - board: seeeduino_xiao_ble
-    shield: abomination_right nice_view_adapter nice_view
+    shield: abomination_right nice_view
