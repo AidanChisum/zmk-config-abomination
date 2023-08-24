@@ -12,3 +12,8 @@
 #     shield: reviung41
 #
 ---
+include:
+  - board: seeeduino_xiao_ble
+    shield: abomination_left nice_view
+  - board: seeeduino_xiao_ble
+    shield: abomination_right nice_view
