@@ -88,10 +88,10 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp  F1  &kp F2 &kp F3 &kp F4 &kp F5 &kp F6                      &kp F7 &kp F8  &kp F9 &kp F10 &kp F11 &kp F12
+   &kp  F1  &kp F2 &kp F3 &kp F4 &kp F5 &kp F6                     &kp F7 &kp F8  &kp F9 &kp F10 &kp F11 &kp F12
    &mt LSHFT CAPS &trans   &trans &trans   &trans   &to GAMING     &kp PG_UP &kp LEFT &kp RIGHT &kp UP &kp DOWN &kp PG_DN
    &kp LCTRL &kp LGUI &kp LALT &trans   &trans   &trans            &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 
-                             &trans &trans   &trans                 &trans   &trans    &trans
+                             &trans &trans   &trans                &trans   &trans    &trans
                         >;
                 };
 
@@ -102,10 +102,10 @@
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
-   &kp ESC &kp N3 &kp Q    &kp W    &kp E   &kp R      &none  &none &none &none  &none &none
-   &kp TAB &kp LSHFT  &kp A  &kp S  &kp D  &kp F       &none  &none &none &none &kp UP &none 
-   &kp T  &kp LCTRL  &kp Z   &kp X  &kp C  &kp V       &none  &none &none &kp LEFT &kp DOWN &kp RIGHT
-                  &lt GAMING2 B &kp SPACE  &kp G                 &none  &none &none
+   &kp ESC &kp N3 &kp Q    &kp W    &kp E   &kp R      &kp N7 &kp N8   &kp N9 &none  &none &to DEFAULT
+   &kp TAB &kp LSHFT  &kp A  &kp S  &kp D  &kp F       &kp N4 &kp N5   &kp N6 &none &kp UP &none 
+   &kp T  &kp LCTRL  &kp Z   &kp X  &kp C  &kp V       &kp N1 &kp N2   &kp N3 &kp LEFT &kp DOWN &kp RIGHT
+                  &lt GAMING2 B &kp SPACE  &kp G       &none  &none &none
                         >;
                 };
                 
@@ -116,9 +116,9 @@
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
-   &trans &kp N1 &trans  &trans &trans &trans      &trans &trans &trans &trans &trans &to DEFAULT
-   &trans &trans &trans  &trans &trans &trans      &trans &trans &trans &trans &trans &trans 
-   &trans &trans &trans  &trans &trans &trans      &trans &trans &trans &trans &trans &trans
+   &trans &kp N1 &kp O  &trans &trans &kp Y      &kp F7 &kp F8 &kp F9 &trans &trans &to DEFAULT
+   &trans &trans &trans  &trans &trans &kp I      &kp F4 &kp F5 &kp F6 &trans &trans &trans 
+   &trans &trans &trans  &trans &kp N &kp L     &kp F1 &kp F2 &kp F3 &trans &trans &trans
                    &trans &trans &trans                 &trans &trans &trans
                         >;
                 };
